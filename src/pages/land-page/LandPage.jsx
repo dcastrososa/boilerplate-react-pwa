@@ -1,12 +1,13 @@
 import React from "react";
 import "./style.sass";
-import Example from "./component/example";
+import { Route, Link } from "react-router-dom";
+import Login from "../login";
 
 const LandPage = () => {
   return (
     <>
-      <div>pagina de inicio</div>
-      <Example />
+      <Link to="/login">Ir al Login</Link>
+      <Route path="/login" component={Login} />
     </>
   );
 };

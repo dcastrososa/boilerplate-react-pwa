@@ -92,11 +92,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
   Hooks que son usados en toda la aplicacion.
 
 ### pages
-  Paginas de la aplicacion.
-    - Los nombres de la carpetas deben ser separados por "-".
-    - Los nombres de los archivos deben ser camelcase>
-    - Cada carpeta, correspondiente a cada pagina debe tener un: index.js y style.sass
-    - Los componentes que usa solo esa pagina deben ir dentro de la carpeta "component", dentro de la carpeta de la pagina.
+  #### Paginas de la aplicacion.
+    ##### Los nombres de la carpetas deben ser separados por "-".
+    ##### Los nombres de los archivos deben ser camelcase>
+    ##### Cada carpeta, correspondiente a cada pagina debe tener un: index.js y style.sass
+    ##### Los componentes que usa solo esa pagina deben ir dentro de la carpeta "component", dentro de la carpeta de la pagina.
 
 ### providers
   Context y Providers.
